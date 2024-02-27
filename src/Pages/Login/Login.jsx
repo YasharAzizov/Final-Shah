@@ -23,7 +23,7 @@ const Login = () => {
       <button className='loginBtn'>Əlaqəyə keç</button>
       <div className="social">
         <div className="go"><a href="">Whatsapp</a> </div>
-        <div className="fb"><a href="https://www.instagram.com/yasharr.444/">Instagram</a></div>
+        <div className="fb"><a target='_blank' href="https://www.instagram.com/yasharr.444/">Instagram</a></div>
       </div>
       </form>
 
