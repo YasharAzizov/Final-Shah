@@ -28,9 +28,9 @@ const MobileNav = ({classes,setMenuOpen,menuOpen}) => {
           </a>
         </li>
         <li onClick={() => setMenuOpen(!menuOpen)}>
-          <a className="menu__item" href="#">
-            Daxil Ol
-          </a>
+          <NavLink className="menu__item" to={'/login'}>
+           Daxil Ol
+          </NavLink>
         </li>
       </ul>
 
