@@ -86,28 +86,14 @@
   }
 } 
 
-@media (max-widht: 580px){
-  .about_us__right_h5{
-    font-size: 2rem;
-  }
-}
-
-
-@media (max-widht: 412px){
-  .about_us__right_h5{
-    font-size: 2rem;
-  }
-}
-
 @media (max-widht :500px){
   .about_us__right_h5{
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
-
 @media (max-width: 380px) {
   .about_us__right_h5 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .about_us__right_desc {
