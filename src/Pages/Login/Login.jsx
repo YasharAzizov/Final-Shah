@@ -14,11 +14,11 @@ const Login = () => {
       <h3>Bizimlə Əlaqə</h3>
 
       <label htmlFor="username">Ad Soyad</label>
-      <input type="text" placeholder="Email or Phone" id="username" name='email'/>
+      <input type="text" placeholder="Ad Soyad" id="username" name='email'/>
 
       <label htmlFor="password">Şifrə</label>
     
-      <input type="password" placeholder="Password" id="password" name='password'/>
+      <input type="password" placeholder="Şifrə" id="password" name='password'/>
 
       <button className='loginBtn'>Əlaqəyə keç</button>
       <div className="social">
