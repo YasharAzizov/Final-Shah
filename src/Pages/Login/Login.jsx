@@ -11,16 +11,16 @@ const Login = () => {
       <div className="shape"></div>
   </div>
  <form action="https://getform.io/f/9avNgMaG" method="POST" >
-      <h3>Login Here</h3>
+      <h3>Bizimlə Əlaqə</h3>
 
-      <label htmlFor="username">Username</label>
+      <label htmlFor="username">Ad Soyad</label>
       <input type="text" placeholder="Email or Phone" id="username" name='email'/>
 
-      <label htmlFor="password">Password</label>
+      <label htmlFor="password">Şifrə</label>
     
-      <input type="password" placeholder="Password" id="password" name='passüord'/>
+      <input type="password" placeholder="Password" id="password" name='password'/>
 
-      <button className='loginBtn'>Log In</button>
+      <button className='loginBtn'>Əlaqəyə keç</button>
       <div className="social">
         <div className="go"><i class="fab fa-google"></i>  Google</div>
         <div className="fb"><i class="fab fa-facebook"></i>  Facebook</div>
