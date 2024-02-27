@@ -103,8 +103,16 @@
 
 @media (max-width: 580px) {
   .hero__main_left_rest_slogan {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
+
+  @media (max-width: 500px) {
+    .hero__main_left_rest_slogan {
+      font-size: 1.5rem;
+    }
+  
+  
+
 
   .hero__main_left_rest_name {
     font-size: 1rem;
