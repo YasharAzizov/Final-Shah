@@ -28,8 +28,8 @@ const MobileNav = ({classes,setMenuOpen,menuOpen}) => {
           </a>
         </li>
         <li onClick={() => setMenuOpen(!menuOpen)}>
-          <a className="menu__item" href="#footer">
-            Əlaqə
+          <a className="menu__item" href="#">
+            Daxil Ol
           </a>
         </li>
       </ul>
