@@ -4,7 +4,8 @@ import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Footer/Footer'
 const Login = () => {
   return (
-
+<>
+<Header/>
 <div className='log'>
 <div className="background">
       <div className="shape"></div>
@@ -27,6 +28,8 @@ const Login = () => {
       </div>
       </form>
 </div>
+<Footer/>
+</>
 
 
   )
