@@ -18,7 +18,7 @@ const Header = () => {
           <img src={six} alt="" className="sandwich__img" />
           <nav className="hero__nav">
             <div className="hero__nav_left">
-                <img src={logo} alt="" />
+             <NavLink to={'/'}>   <img src={logo} alt="" /></NavLink>
               <h1 className="hero__nav_left_h1">f.palace</h1>
             </div>
 
