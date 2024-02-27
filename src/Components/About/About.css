@@ -86,10 +86,22 @@
   }
 } 
 
-@media (max-widht: 500px){
-
+@media (max-widht: 580px){
   .about_us__right_h5{
     font-size: 2rem;
+  }
+}
+
+
+@media (max-widht: 470px){
+  .about_us__right_h5{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-widht: 500px){
+  .about_us__right_h5{
+    font-size: 1.5rem;
   }
 }
 
