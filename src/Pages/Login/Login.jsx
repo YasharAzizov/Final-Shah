@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Login/Login.css'
 import Header from '../../Components/Header/Header'
-import Footer from '../../Components/Footer/Footer'
 const Login = () => {
   return (
 <>
@@ -27,8 +26,8 @@ const Login = () => {
         <div className="fb"><i class="fab fa-facebook"></i>  Facebook</div>
       </div>
       </form>
+
 </div>
-<Footer/>
 </>
 
 
