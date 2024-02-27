@@ -1,5 +1,5 @@
 import React from 'react'
-import '../TakeAwey/TakeAwey.css'
+import './TakeAwey.css'
 import food from  '../Assets/Images/Food 5 1.svg'
 import img2 from '../Assets/Images/Image2.svg'
 const TakeAwey = () => {
