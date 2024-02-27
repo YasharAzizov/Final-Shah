@@ -3,7 +3,7 @@ import '../Footer/Footer.css'
 import firstimage from '../Assets/Images/food 1.svg'
 const Footer = () => {
   return (
-    <footer id='footer' className="shah-palace_footer">
+    <footer className="shah-palace_footer">
     <div className="container">
         <div className="footer__inner">
             <div className="footer__inner_top">

@@ -1,7 +1,10 @@
 import React from 'react'
 import '../Login/Login.css'
+import Header from '../../Components/Header/Header'
+import Footer from '../../Components/Footer/Footer'
 const Login = () => {
   return (
+
 <div className='log'>
 <div className="background">
       <div className="shape"></div>
@@ -24,6 +27,8 @@ const Login = () => {
       </div>
       </form>
 </div>
+
+
   )
 }
 
