@@ -178,7 +178,11 @@
     font-size: 0.7rem;
   }
 }
-
+@media (max-width: 500px) {
+  .recipes__texts_span {
+    font-size: 2rem;
+  }
+}
 @media (max-width: 380px) {
   .recipes__texts_span {
     font-size: 2rem;

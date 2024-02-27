@@ -87,6 +87,16 @@
       align-items: center;
     }
   }
+  
+
+  @media(max-widht:500px){
+    .download__inner_right_h3{
+      font-size: 2rem;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
 
   @media (max-width: 390px) {
     .download__inner_right_h3 {
