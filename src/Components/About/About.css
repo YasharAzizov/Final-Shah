@@ -86,9 +86,9 @@
   }
 } 
 
-@media (max-widht :500px){
+@media (max-widht :410px){
   .about_us__right_h5{
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 380px) {
