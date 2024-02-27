@@ -1,0 +1,115 @@
+a{
+  text-decoration: none;
+  color: #000;
+}
+.shah-palace_footer{
+    background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+
+}
+
+.footer__inner {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .footer__inner_bottom > p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 550;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+  .footer__inner_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer__inner_top_main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: start;
+  }
+  
+  .top_main_site {
+    gap: 0.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+  }
+  
+  .top_main_box {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .footer__inner_top_list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .footer__inner_top_list > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.4rem;
+  }
+  .footer__inner_top_list > ul > li a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #6A5C5C;
+  }
+  
+  .footer__inner_top_list:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .footer__inner_top_list:last-child > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.4rem;
+  }
+  .footer__inner_top_list:last-child > ul > li a {
+    text-decoration: underline;
+    text-decoration-color: #2E2E2E;
+    text-underline-offset: 0.3rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #2E2E2E;
+  }
+  
+  .footer__inner_bottom {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .top_list_h5 {
+    font-family: "Gilroy-Semibold", sans-serif;
+    color: #2E2E2E;
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 1061px) {
+    .footer__inner_top {
+      flex-direction: column;
+      align-items: start;
+      gap: 3rem;
+    }
+  }
+
+  @media (max-width: 236px) {
+    .top_main_box {
+      font-size: 0.6rem;
+    }
+  }

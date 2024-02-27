@@ -1,0 +1,178 @@
+.shah-palace_recipes {
+  width: 100%;
+}
+
+.recipes__inner {
+  padding-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 4rem; */
+}
+
+.recipes__texts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  align-items: center;
+}
+
+.allrecipes__texts_h2 {
+  color: rgb(255, 148, 1);
+  font-size: 1.5rem;
+  font-family: "Gilroy-Medium", sans-serif;
+}
+
+.allrecipes__texts_span {
+  font-size: 3rem;
+  color: rgb(255, 148, 1);
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(46, 46, 46);
+}
+
+.recipes__button_primary {
+  width: 100%;
+}
+
+.recipes__button_primary {
+  padding: 0.8rem 2.3rem 0.8rem 2.3rem;
+  background-color: rgb(255, 148, 1);
+  border: none;
+  border-radius: 2rem;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.recipes__container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.recipes__card {
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  align-items: start;
+  padding: 0.5rem 1rem 1.5rem 1rem;
+  box-shadow: 0rem 2.5rem 5rem 0rem rgba(255, 148, 1, 0.15);
+  border-radius: 0.5rem;
+  background: rgb(255, 255, 255);
+}
+
+.recipes__card_img {
+  width: 100%;
+  height: auto;
+}
+.recipes__card_img > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.recipes__card_name_rate {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recipes__card_name {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(46, 46, 46);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.recipes__card_rate {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(129, 129, 129);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.recipes__card_rate > .bi {
+  font-size: 0.6rem;
+}
+
+.recipes__card_btn_price {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recipes__card_add-card {
+  background-color: rgba(196, 196, 196, 0.26);
+  padding: 0.3rem 1.3rem 0.3rem 1.3rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(105, 105, 105);
+}
+
+.recipes__card_price {
+  color: rgb(255, 148, 1);
+  font-family: "Gilroy-Bold", sans-serif;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 490px) {
+  .recipes__card_name_rate {
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 317px) {
+  .recipes__card_btn_price {
+    flex-direction: column;
+    align-items: start;
+    gap: 0.3rem;
+  }
+}
+
+@media (max-width: 410px) {
+  .allrecipes__texts_span {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 285px) {
+  .allrecipes__texts_span {
+    font-size: 1.5rem;
+  }
+
+  .allrecipes__texts_h2 {
+    font-size: 1.25rem ;
+  }
+}
+
+@media (max-width: 208px) {
+  .allrecipes__texts_span {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 175px) {
+  .allrecipes__texts_span {
+    font-size: 1rem;
+  }
+}

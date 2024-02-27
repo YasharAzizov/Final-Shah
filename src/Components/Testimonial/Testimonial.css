@@ -1,0 +1,136 @@
+.clients__inner {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .clients__inner_right_image {
+    width: 100%;
+    height: 100%;
+  }
+  .clients__inner_right_image > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .clients__inner_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2.5rem;
+  }
+  
+  .clients___inner_left_h5 {
+    color: #FF9401;
+    font-size: 1.5rem;
+    font-family: "Gilroy-Bold", sans-serif;
+  }
+  
+  .clients__inner_left_client_info {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .client_info_left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.3rem;
+  }
+  
+  .client_info_name {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #2E2E2E;
+  }
+  
+  .client_info_right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .bi-arrow-left {
+    font-size: 1rem;
+  }
+  
+  .bi-arrow-right {
+    font-size: 1.7rem;
+    color: #FF9401;
+  }
+  
+  .client_info_job {
+    font-size: 0.8rem;
+    color: #675959;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .clients__inner_left_h2 {
+    width: 93%;
+    color: #2E2E2E;
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 3rem;
+  }
+  
+  .clients__inner_left_clients_say {
+    color: #3F3232;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    width: 50%;
+    font-size: 1.1rem;
+  }
+  
+  .clients__inner_right {
+    width: 50%;
+  }
+  
+  @media (max-width: 1163px) {
+    .clients__inner {
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+    }
+
+    .clients__inner_left, .clients__inner_right {
+      width: 100%;
+    }
+
+    .clients__inner_left_h2 {
+      width: 100%;
+    }
+
+    .clients__inner_left_clients_say {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 393px) {
+    .clients__inner_left_h2 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 254px) {
+    .clients__inner_left_h2 {
+      font-size: 1.4rem;
+      
+    }
+
+    .clients__inner_left_clients_say {
+      font-size: 0.95rem;
+    }
+  }
+
+  @media (max-width: 197px) {
+    .clients__inner_left_h2 {
+      font-size: 1rem;
+    }
+  }

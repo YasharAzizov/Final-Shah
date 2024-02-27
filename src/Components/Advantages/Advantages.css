@@ -1,0 +1,113 @@
+.features__inner {
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .shah-palace_features {
+    position: relative;
+  }
+  
+  .food-img-features {
+    position: absolute;
+    left: 0;
+    top: -5rem;
+  }
+  
+  .food-img-features_2 {
+    position: absolute;
+    right: 0;
+    top: -10rem;
+  }
+  
+  .features__inner_text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+  
+  .features__inner_text_h3 {
+    text-align: center;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 1.5rem;
+    color: #FF9401;
+  }
+  
+  .features__inner_text_h5 {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 3rem;
+    color: #2E2E2E;
+    text-align: center;
+  }
+  
+  .features__inner_box {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .features__inner_box_container_img {
+    height: 5rem;
+  }
+  .features__inner_box_container_img > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .features__inner_box_container {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+  }
+  
+  .features__inner_box_container_h3 {
+    font-family: "Gilroy-Bold", sans-serif;
+    color: #2E2E2E;
+    font-size: 1.5rem;
+  }
+  
+  .features__inner_box_container_span {
+    width: 70%;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #3F3232;
+  }
+
+  
+@media (max-width: 1163px) {
+  .food-img-features, .food-img-features_2 {
+    display: none;
+  }
+}
+
+@media (max-width: 826px) {
+  .features__inner_box  {
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .features__inner_box_container {
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 380px) {
+  .features__inner_text_h5 {
+    font-size: 1.8rem;
+  }
+
+  .features__inner_text_h3 {
+    font-size: 1.1rem;
+  }
+}
