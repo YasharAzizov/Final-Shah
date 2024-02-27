@@ -87,14 +87,14 @@
   font-size: 1.2rem;
 }
 
-
 @media (max-width: 1163px) {
   .hero__main {
     flex-direction: column;
     gap: 3rem;
   }
 
-  .hero__main_left, .hero__main_right {
+  .hero__main_left,
+  .hero__main_right {
     width: 100%;
     align-items: center;
     text-align: center;
@@ -106,7 +106,7 @@
     font-size: 1.5rem;
   }
 
-  .hero__main_left_rest_name  {
+  .hero__main_left_rest_name {
     font-size: 1rem;
   }
 }
