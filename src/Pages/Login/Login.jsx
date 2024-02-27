@@ -22,8 +22,8 @@ const Login = () => {
 
       <button className='loginBtn'>Əlaqəyə keç</button>
       <div className="social">
-        <div className="go"><i class="fab fa-google"></i>  Google</div>
-        <div className="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+        <div className="go"><a href="">Whatsapp</a> </div>
+        <div className="fb"><a href="https://www.instagram.com/yasharr.444/">Instagram</a></div>
       </div>
       </form>
 
