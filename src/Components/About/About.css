@@ -85,10 +85,6 @@
     width: 100%;
   }
 }
-@media (max-width: 500px) {
-  .about_us__right_h5 {
-    font-size: 2rem;
-  }
 
 @media (max-width: 380px) {
   .about_us__right_h5 {

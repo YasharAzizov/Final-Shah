@@ -90,6 +90,10 @@
   }
 }
 
+
+
+
+
 @media (max-width: 826px) {
   .features__inner_box  {
     justify-content: center;
@@ -102,7 +106,7 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 500px) {
   .features__inner_text_h5 {
     font-size: 1.8rem;
   }
