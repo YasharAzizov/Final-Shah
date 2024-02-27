@@ -99,9 +99,9 @@
   }
 }
 
-@media (max-widht: 500px){
-  .about_us__right_h5{
-    font-size: 1rem;
+@media (max-widht :500px){
+  .about_us__right_h3{
+    font-size: 3rem;
   }
 }
 
